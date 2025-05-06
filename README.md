@@ -13,7 +13,7 @@ Fast disposable WireGuard VPN on GCP. Deploy in seconds, destroy when done.
 
 1. Clone this repo:
    ```
-   git clone https://github.com/username/ephemeral-tunnel.git
+   git clone https://github.com/kennethwolters/ephemeral-tunnel.git
    cd ephemeral-tunnel
    ```
 
