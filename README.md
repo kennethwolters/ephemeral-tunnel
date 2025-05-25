@@ -23,7 +23,6 @@ Fast disposable WireGuard VPN on GCP. Deploy in seconds, destroy when done.
 3. Get client config:
    ```
    gcloud compute ssh wireguard-vpn --zone=us-central1-a
-   sudo su
    sudo cat /etc/wireguard/client.conf
    ```
    > **Note**: Only the root user has access to the WireGuard configuration files. Make sure to run `sudo su` before attempting to access the client configuration.
